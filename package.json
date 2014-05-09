@@ -1,0 +1,27 @@
+{
+  "name": "langy.in",
+  "version": "0.0.1",
+  "description": "News tracking site of the Yin language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "devDependencies": {
+    "mission": "0.0.2-0",
+    "shelljs": "^0.3.0"
+  },
+  "dependencies": {
+    "mission": "~0.0.2-0",
+    "shelljs": "~0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coffee-js/langy.in.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coffee-js/langy.in/issues"
+  },
+  "homepage": "https://github.com/coffee-js/langy.in"
+}

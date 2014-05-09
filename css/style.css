@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#paper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 810px;
+    height: 100%;
+    justify-content: center;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.event .date {
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size: 30px;
+    width: 26%;
+    text-align: right;
+    padding-right: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Optima;
+}
+
+#now {
+    font-size: 17px;
+}
